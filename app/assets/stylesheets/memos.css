@@ -1,0 +1,61 @@
+/* リセットCSS */
+body {
+  font-size: 14px;
+  color: #333;
+  margin: 0 auto;
+}
+h1,h2,h3,h4,h5,h6,p {
+  padding: 10px 0;
+  margin: 0;
+}
+
+ul,li {
+  padding: 0;
+  margin: 0;
+}
+
+
+header{
+  height: 50;
+  width: 100%;
+  font-size: 25PX;
+  background-color: lightgoldenrodyellow;
+  padding: 0 20px
+}
+.memo{
+  border: 1px solid royalblue;
+  border-radius: 100px;
+  width: 40%;
+  margin-top: 30px;
+  padding: 20px 40px;
+  margin: 30px auto;
+}
+
+.memo-date{
+  color: lightgrey;
+  margin-bottom: 10px;
+}
+
+footer{
+  height: 50;
+  width: 100px;
+  background-color: lightgoldenrodyellow;
+}
+.header-image{
+  width: 100px;
+  height: 80px;
+}
+.post-form{
+  padding: 15px;
+}
+.post-button{
+  padding: 0 0 0 15px;
+}
+
+.contents{
+  
+}
+.post-memo{
+  font-size: 20px;
+  
+}
