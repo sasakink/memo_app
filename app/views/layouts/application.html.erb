@@ -8,8 +8,17 @@
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
-
   <body>
-    <%= yield %>
+    <header>
+      <div>
+        <%= link_to image_tag("tabi_memo.png", class:"header-image")%>
+      </div>
+    </header>
+      <%= yield %>
+    <footer>
+      <p class="footer-name">
+        Copyright Memo 2021.
+      </p>
+    </footer>
   </body>
 </html>
