@@ -19,4 +19,17 @@ class MemosController < ApplicationController
     memo = Memo.find(params[:id])
     memo.destroy
   end
+
+  def edit
+    @memo = Memo.find(params[:id])
+  end
+
+  def update
+    memo = Memo.find(params[:id])
+    memo.update(memo_params)
+  end
+
+  def memo_params
+    params.require(:memo).permit(:content)
+  end
 end
